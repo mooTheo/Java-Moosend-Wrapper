@@ -26,7 +26,7 @@ import java.io.IOException;
 /**
  * UpdatingSegmentCriteriaResponse
  */
-@javax.annotation.Generated(value = "io.swagger.codegen.languages.JavaClientCodegen", date = "2017-09-25T09:37:52.408Z")
+@javax.annotation.Generated(value = "io.swagger.codegen.languages.JavaClientCodegen", date = "2017-10-03T15:06:19.511Z")
 public class UpdatingSegmentCriteriaResponse {
   @SerializedName("Code")
   private Integer code = null;

@@ -9,7 +9,7 @@ Building the API client library requires [Maven](https://maven.apache.org/) to b
 To install the API client library to your local Maven repository, simply execute:
 
 ```shell
-mvn install
+mvn install 
 ```
 
 Refer to the [official documentation](https://maven.apache.org/plugins/maven-deploy-plugin/usage.html) for more information.
@@ -19,11 +19,17 @@ Refer to the [official documentation](https://maven.apache.org/plugins/maven-dep
 Add this dependency to your project's POM:
 
 ```xml
+<repositories>
+    <repository>
+        <id>jitpack.io</id>
+        <url>https://jitpack.io</url>
+    </repository>
+  </repositories>
+
 <dependency>
-    <groupId>io.swagger</groupId>
-    <artifactId>swagger-java-client</artifactId>
-    <version>1.0.0</version>
-    <scope>compile</scope>
+    <groupId>com.github.moosendr</groupId>
+    <artifactId>api-wrappers-java</artifactId>
+    <version>v3.0.0</version>
 </dependency>
 ```
 
@@ -43,7 +49,7 @@ At first generate the JAR by executing:
 
 Then manually install the following JARs:
 
-* target/swagger-java-client-1.0.0.jar
+* target/api-wrappers-java-3.0.0.jar
 * target/lib/*.jar
 
 ## Getting Started
